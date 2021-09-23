@@ -939,7 +939,7 @@ def plot(displacement_RMS,
                     _.plot(ax=ax,#es[0], 
                            ls="--")
     
-                ax.title.set_text('Lockdown')
+                ax.title.set_text('Lockdown 2020')
                 clock24_plot_commons(ax,unit=unit)
             
                 ## REOPENING
@@ -947,7 +947,7 @@ def plot(displacement_RMS,
                 # ax = plt.subplot(224, polar=True, sharey=ax)
                 ax=axgrid[1,1]
                 ax.set_ylim((0.0,radial_scale))
-                ax.title.set_text('Re-opened')
+                ax.title.set_text('Lockdown 2021')
  
                 
                 if len(reopened):

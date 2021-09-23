@@ -45,7 +45,7 @@ reference = {"start": "2020-02-03 00:00",
 summer_hol = {"start":"2019-12-20 00:00",
               "end":  "2020-02-02 00:00"}
 
-lockdown2020   = {"start":"2020-02-24 00:00",
-              "end":   "2020-05-18 00:00"}
+lockdown   = {"start":"2020-02-24 00:00",
+                  "end":  "2020-05-18 00:00"}
 
-lockdown2021    = {"start":"2021-08-13 00:00"}
+reopening  = {"start":"2021-08-13 00:00"}  # actually, this is the 2021 lockdown at the moment

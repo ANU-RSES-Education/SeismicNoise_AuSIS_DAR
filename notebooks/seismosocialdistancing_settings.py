@@ -30,13 +30,12 @@ sitedesc = "Daramalan College, ACT"
 
 data_provider = "http://auspass.edu.au:8080"
 logo = None # 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Logo_SED_2014.png/220px-Logo_SED_2014.png'
-bans = { "2019-12-20 00:00":"Start of School Summer Holiday",
-        "2020-01-28 00:00":"End of School Summer Holiday",
-        "2020-03-18 00:00":'No Large Gatherings',
-        "2020-03-25 12:00":'Closures',
-        "2020-04-10 00:00":"Easter", 
-        "2020-05-25 00:00":"Schools open (NSW)", 
-        "2020-07-07 00:00":"Restrictions re-imposed (VIC)"
+bans = { 
+        "2021-02-01 00:00":"End of summer holiday", 
+        "2021-04-01 00:00":"End of term 1",
+        "2021-06-18 00:00":"End of term 2",
+        "2021-07-12 00:00":"Start of term 3",
+        "2021-08-13 00:00":"Start of ACT lockdown"
         }
 
 
@@ -46,7 +45,7 @@ reference = {"start": "2020-02-03 00:00",
 summer_hol = {"start":"2019-12-20 00:00",
               "end":  "2020-02-02 00:00"}
 
-lockdown   = {"start":"2020-03-24 00:00",
-              "end":  "2020-05-18 00:00"}
+lockdown2020   = {"start":"2020-02-24 00:00",
+              "end":   "2020-05-18 00:00"}
 
-reopening    = {"start":"2020-05-25 00:00"}
+lockdown2021    = {"start":"2021-08-13 00:00"}
